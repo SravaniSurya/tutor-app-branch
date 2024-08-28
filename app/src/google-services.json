@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971002796267",
+    "project_id": "tutorappdesign",
+    "storage_bucket": "tutorappdesign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971002796267:android:aee5bc7cc7f5303b1186ae",
+        "android_client_info": {
+          "package_name": "com.tutorconnect.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0SzxIDSaidFU4Nbfwlspe_koAULzIFyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

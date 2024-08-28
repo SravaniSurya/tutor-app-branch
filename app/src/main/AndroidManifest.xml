@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".TutorApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TutorConnect"
+        tools:targetApi="31">
+        <activity
+            android:name=".DictionaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tutor.TutorViewSubmittedAssignments"
+            android:exported="false" />
+        <activity
+            android:name=".student.StudentUploadAssignment"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".student.StudentEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentPasswordChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".student.StudentPasswordChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tutor.TutorViewParent"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentViewNotes"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentViewAssignment"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".tutor.TutorViewAssignmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorViewNotes"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorUploadAssignment"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorUploadNotesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.AddParent"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.AddStudent"
+            android:exported="true" />
+        <activity
+            android:name=".parent.ParentResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".parent.ParentDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentReview"
+            android:exported="true" />
+        <activity
+            android:name=".parent.ParentSignIn"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentSignIn"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorViewStudents"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorSignIn"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorPasswordChangeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorSignUp"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

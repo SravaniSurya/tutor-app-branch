@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.StudentUploadAssignment">
+
+    <EditText
+        android:id="@+id/editext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Select File from storage"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_selectPdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editext"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="select pdf"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_selectPdf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="upload"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+</RelativeLayout>
